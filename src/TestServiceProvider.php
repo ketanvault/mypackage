@@ -24,6 +24,6 @@ class TestServiceProvider extends ServiceProvider
     public function register()
     {
         include __DIR__.'/routes/web.php';
-        $this->app->make('vendor\src\Ketan\Test\TestController');
+        $this->app->make('vendor\Ketan\Test\TestController');
     }
 }
