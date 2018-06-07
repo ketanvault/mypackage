@@ -1,5 +1,5 @@
 {
-    "name": "ketanvault/mypackage",
+    "name": "Ketan/Test",
     "description": "test",
     "type": "library",
     "authors": [
@@ -12,7 +12,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "TestServiceProvider"
+                "Ketan\\Test\\TestServiceProvider"
             ]
         }
     }
