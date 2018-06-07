@@ -12,13 +12,5 @@
         "App\\": "app/",
         "ketan\\test\\": "src/"
     },
-    "require": {},
-    "extra": {
-        "laravel": {
-            "providers": [
-                "\\src\\TestServiceProvider"
-            ]
-        }
-    },
     "minimum-stability": "dev"
 }
