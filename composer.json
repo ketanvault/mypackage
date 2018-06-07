@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "vendor\\ketan\\test\\TestServiceProvider"
+                "vendor\\src\\ketan\\test\\TestServiceProvider"
             ]
         }
     },
