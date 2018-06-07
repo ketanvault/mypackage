@@ -10,7 +10,7 @@
     ],
     "psr-4": {
         "App\\": "app/",
-        "ketan\\test\\": "vendor\\ketan\\test\\src"
+        "ketan\\test\\": "src/"
     },
     "require": {},
     "extra": {
