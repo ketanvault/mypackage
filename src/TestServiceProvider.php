@@ -1,6 +1,6 @@
 <?php
 
-namespace Ketan\Test;
+namespace vendor\ketanvault\mypackage;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -24,6 +24,6 @@ class TestServiceProvider extends ServiceProvider
     public function register()
     {
         include __DIR__.'/routes/web.php';
-        $this->app->make('Ketan\Test\TestController');
+        $this->app->make('TestController');
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ketan\Test;
+namespace vendor\ketanvault\mypackage;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
