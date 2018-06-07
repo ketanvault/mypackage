@@ -1,0 +1,19 @@
+{
+    "name": "Ketan/Test",
+    "description": "test",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ketan",
+            "email": "ketanmk@teamvault.net"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ketan\\Test\\TestServiceProvider"
+            ]
+        }
+    }
+}
