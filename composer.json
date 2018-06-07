@@ -11,8 +11,21 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "ketan\\test\\": "src/"
+            "Ketan\\Test\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Ketan\\Test\\": "ketan/test/src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ketan\\Test\\TestServiceProvider"
+            ]
+        }
+    },
+    "require":{},
     "minimum-stability": "dev"
 }
