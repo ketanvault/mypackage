@@ -1,6 +1,7 @@
 {
     "name": "ketan/test",
-    "description": "test",
+    "description": "This is test Repository",
+    "license": "MIT",
     "type": "library",
     "authors": [
         {
